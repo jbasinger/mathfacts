@@ -1,0 +1,8 @@
+<ion-content padding>
+  <h1 text-center>
+    {{title}}
+  </h1>
+  <img src="assets/img/{{gif}}.gif"/>
+  <button ion-button full *ngIf="!correctAnswer" color="danger" (click)="closeModal(false)">Try Again!</button>
+  <button ion-button full (click)="closeModal(true)">Next Problem!</button>
+</ion-content>

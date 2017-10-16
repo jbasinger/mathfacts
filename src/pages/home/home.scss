@@ -1,3 +1,26 @@
 page-home {
+  ion-grid.keypad ion-row ion-col{
+    // height: 75px;
+    height: 10vh;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #868686;
+  }
 
+  ion-grid.question{
+    height: 100%;
+  }
+
+  ion-grid.question ion-row{
+    height: 50%;
+  }
+
+  ion-grid.question ion-row ion-col{
+    font-size: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
